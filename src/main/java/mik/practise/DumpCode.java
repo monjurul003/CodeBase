@@ -1,5 +1,6 @@
 package mik.practise;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -35,6 +36,14 @@ public class DumpCode {
         for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
 
+        }
+        ArrayList<String> strList = new ArrayList<String>();
+        strList.add("test-1");
+        strList.add("test-2");
+        String[] strArr = strList.toArray(new String[strList.size()]);
+        for (String s:
+             strArr) {
+            System.out.println(s);
         }
 
 

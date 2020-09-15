@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="" />
+    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/microsoft/MinMovestoObtain3ConsLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/MinMovestoObtain3ConsLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/practise/DumpCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/practise/DumpCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/randomques/CodeSnippet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/randomques/CodeSnippet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/randomques/LinkedListRelated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/randomques/LinkedListRelated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mik/bitquill/TestCircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mik/bitquill/TestCircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/microsoft/MinMovestoObtain3ConsLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/microsoft/MinMovestoObtain3ConsLetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mik/bitquill/TestCircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mik/bitquill/TestCircularQueue.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +25,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="/usr/bin/git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bSbG5AxbmezqYt2xyt9kA7bbt6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,7 +51,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Application.DumpCode">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -74,50 +89,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.bitquill.PrimeNumberGenerator" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.bitquill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseCharArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.bitquill.ReverseCharArray" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.bitquill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrappingTheRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.bitquill.TrappingTheRainWater" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.bitquill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircularQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.bitquill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mik.bitquill" />
+      <option name="MAIN_CLASS_NAME" value="mik.bitquill.TestCircularQueue" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircularQueue.testCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.bitquill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mik.bitquill" />
+      <option name="MAIN_CLASS_NAME" value="mik.bitquill.TestCircularQueue" />
+      <option name="METHOD_NAME" value="testCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircularQueue.testSuccessfulEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.bitquill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mik.bitquill" />
+      <option name="MAIN_CLASS_NAME" value="mik.bitquill.TestCircularQueue" />
+      <option name="METHOD_NAME" value="testSuccessfulEnqueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DumpCode" />
-        <item itemvalue="Application.PrimeNumberGenerator" />
-        <item itemvalue="Application.ReverseCharArray" />
-        <item itemvalue="Application.TrappingTheRainWater" />
         <item itemvalue="Application.CodeSnippet" />
+        <item itemvalue="JUnit.TestCircularQueue.testSuccessfulEnqueue" />
+        <item itemvalue="JUnit.TestCircularQueue" />
+        <item itemvalue="JUnit.TestCircularQueue.testCapacity" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +203,9 @@
       <workItem from="1591710679903" duration="5215000" />
       <workItem from="1591734829694" duration="449000" />
       <workItem from="1599841042190" duration="494000" />
-      <workItem from="1599843351306" duration="3518000" />
+      <workItem from="1599843351306" duration="5855000" />
+      <workItem from="1600005274359" duration="2710000" />
+      <workItem from="1600042627823" duration="2486000" />
     </task>
     <servers />
   </component>
@@ -192,34 +217,30 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="283" y="61" key="#Auto_Import/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591552002233" />
-    <state x="496" y="112" key="#com.intellij.ide.util.MemberChooser" timestamp="1591277168862">
-      <screen x="0" y="23" width="1366" height="745" />
-    </state>
-    <state x="496" y="112" key="#com.intellij.ide.util.MemberChooser/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591277168862" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1599846032298">
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1600044383111">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="226" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097319" />
     <state width="1324" height="226" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576987" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1599846032298" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1599846032296">
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600044383111" />
+    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1600044383108">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="226" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097315" />
     <state width="1324" height="226" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576984" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1599846032296" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1599846032295">
+    <state width="1878" height="226" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600044383108" />
+    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1600044383107">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="226" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097313" />
     <state width="1324" height="226" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576983" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1599846032295" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1599846032297">
+    <state width="1878" height="226" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600044383107" />
+    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1600044383110">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="226" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097318" />
     <state width="1324" height="226" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576985" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1599846032297" />
+    <state width="1878" height="226" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600044383110" />
     <state width="1324" height="232" key="GridCell.Tab.1.bottom" timestamp="1591595686550">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
@@ -236,10 +257,15 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="232" key="GridCell.Tab.1.right/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591595686549" />
-    <state x="-1812" y="131" key="new project wizard" timestamp="1591724094983">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="1835" y="190" key="SettingsEditor" timestamp="1600005346818">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1835" y="190" key="SettingsEditor/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600005346818" />
+    <state x="1474" y="131" key="new project wizard" timestamp="1600007904784">
+      <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="-1812" y="131" key="new project wizard/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724094983" />
+    <state x="1474" y="131" key="new project wizard/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600007904784" />
     <state x="390" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1591559420140">
       <screen x="0" y="23" width="1366" height="745" />
     </state>

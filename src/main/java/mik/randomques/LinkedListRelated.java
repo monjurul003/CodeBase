@@ -1,7 +1,5 @@
 package mik.randomques;
 
-import sun.jvm.hotspot.types.CIntegerField;
-
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Stack;

@@ -1,5 +1,8 @@
 package mik.microsoft;
-
+/*
+* count the minimum number of moves required to change a string consists of a and/or b so that there is no consecutive 3 a or b exists.
+* aaabb => ababb == 1 moves
+* */
 public class MinMovestoObtain3ConsLetter {
     public static void main(String[] args) {
         String s = "aaabb";

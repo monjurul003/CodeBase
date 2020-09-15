@@ -1,6 +1,5 @@
 package mik.randomques;
 
-import java.security.CodeSource;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -58,8 +57,8 @@ public class CodeSnippet {
         CodeSnippet cs = new CodeSnippet();
         int[] nums = new int[]{5,7,7,8,8,10};
         int target = 8;
-        System.out.println(cs.getFirstPoint(nums,target));
-        System.out.println(cs.getLastPoint(nums,target));
+        System.out.println("first -- "+cs.getFirstPoint(nums,target));
+        System.out.println("last -- "+cs.getLastPoint(nums,target));
 
     }
 }
