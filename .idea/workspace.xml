@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/microsoft/MinMovestoObtain3ConsLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/microsoft/MinMovestoObtain3ConsLetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/practise/DumpCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/practise/DumpCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/randomques/CodeSnippet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/randomques/CodeSnippet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mik/bitquill/TestCircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mik/bitquill/TestCircularQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/CanNotFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/FlyWithRocketPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/Squeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinCostClimbingStairs746.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinPathSum64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mik/dp/minmaxpath/MinCostClimbingStairs746Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/microsoft/MaxNetworkRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/MaxNetworkRank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/rise/FindAllAnagramInString438.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/rise/FindAllAnagramInString438.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/microsoft/MaxNetworkRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/microsoft/MaxNetworkRank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/randomques/LinkedListRelated.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/randomques/LinkedListRelated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/rise/FindAllAnagramInString438.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/rise/FindAllAnagramInString438.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -44,7 +59,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1bSbG5AxbmezqYt2xyt9kA7bbt6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,13 +71,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.DumpCode">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mik.dp.minmaxpath" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mik.designpattern.strategy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DuckSimulator">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -68,13 +98,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="CodeSnippet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.randomques.CodeSnippet" />
+    <configuration name="AladdinCheckerGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.AladdinCheckerGame" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.randomques.*" />
+          <option name="PATTERN" value="mik.microsoft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,13 +112,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DumpCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.practise.DumpCode" />
+    <configuration name="DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.designpattern.strategy.DuckSimulator" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.practise.*" />
+          <option name="PATTERN" value="mik.designpattern.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindAllAnagramInString438" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.rise.FindAllAnagramInString438" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.rise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinPathSum64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.dp.minmaxpath.MinPathSum64" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.dp.minmaxpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberWithEqualDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.NumberWithEqualDigitSum" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.microsoft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,56 +170,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCircularQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.bitquill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mik.bitquill" />
-      <option name="MAIN_CLASS_NAME" value="mik.bitquill.TestCircularQueue" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCircularQueue.testCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.bitquill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mik.bitquill" />
-      <option name="MAIN_CLASS_NAME" value="mik.bitquill.TestCircularQueue" />
-      <option name="METHOD_NAME" value="testCapacity" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCircularQueue.testSuccessfulEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.bitquill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mik.bitquill" />
-      <option name="MAIN_CLASS_NAME" value="mik.bitquill.TestCircularQueue" />
-      <option name="METHOD_NAME" value="testSuccessfulEnqueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DumpCode" />
-        <item itemvalue="Application.CodeSnippet" />
-        <item itemvalue="JUnit.TestCircularQueue.testSuccessfulEnqueue" />
-        <item itemvalue="JUnit.TestCircularQueue" />
-        <item itemvalue="JUnit.TestCircularQueue.testCapacity" />
+        <item itemvalue="Application.DuckSimulator" />
+        <item itemvalue="Application.AladdinCheckerGame" />
+        <item itemvalue="Application.NumberWithEqualDigitSum" />
+        <item itemvalue="Application.FindAllAnagramInString438" />
+        <item itemvalue="Application.MinPathSum64" />
       </list>
     </recent_temporary>
   </component>
@@ -212,8 +234,23 @@
       <workItem from="1599841042190" duration="494000" />
       <workItem from="1599843351306" duration="5855000" />
       <workItem from="1600005274359" duration="2710000" />
-      <workItem from="1600042627823" duration="2843000" />
+      <workItem from="1600042627823" duration="4935000" />
+      <workItem from="1600220666457" duration="1638000" />
+      <workItem from="1600541104750" duration="1648000" />
+      <workItem from="1600974704077" duration="617000" />
+      <workItem from="1601337009647" duration="1701000" />
+      <workItem from="1601394840396" duration="302000" />
+      <workItem from="1601402412947" duration="596000" />
+      <workItem from="1601752855552" duration="3183000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:monjurul003/CodeBase">
+      <created>1600134875334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600134875334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,55 +292,59 @@
       </set>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of github.com:monjurul003/CodeBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:monjurul003/CodeBase" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="61" key="#Auto_Import" timestamp="1591552002233">
-      <screen x="0" y="23" width="1366" height="745" />
+    <state x="2139" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1601834742956">
+      <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state x="283" y="61" key="#Auto_Import/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591552002233" />
+    <state x="2139" y="259" key="#com.intellij.ide.util.MemberChooser/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834742956" />
+    <state x="1837" y="128" key="CommitChangelistDialog2" timestamp="1600134874933">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1837" y="128" key="CommitChangelistDialog2/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134874933" />
     <state x="1466" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1600134864084">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1466" y="123" width="1720" height="857" key="DiffContextDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134864084" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1600134509293">
+    <state width="1878" height="143" key="GridCell.Tab.0.bottom" timestamp="1601834121813">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097319" />
-    <state width="1324" height="226" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576987" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134509293" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1600134509292">
+    <state width="1653" height="143" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755910" />
+    <state width="1878" height="143" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121813" />
+    <state width="1878" height="143" key="GridCell.Tab.0.center" timestamp="1601834121811">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097315" />
-    <state width="1324" height="226" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576984" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134509292" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1600134509291">
+    <state width="1653" height="143" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755908" />
+    <state width="1878" height="143" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121811" />
+    <state width="1878" height="143" key="GridCell.Tab.0.left" timestamp="1601834121810">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097313" />
-    <state width="1324" height="226" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576983" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134509291" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1600134509293">
+    <state width="1653" height="143" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755907" />
+    <state width="1878" height="143" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121810" />
+    <state width="1878" height="143" key="GridCell.Tab.0.right" timestamp="1601834121812">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724097318" />
-    <state width="1324" height="226" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591714576985" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134509293" />
-    <state width="1324" height="232" key="GridCell.Tab.1.bottom" timestamp="1591595686550">
-      <screen x="0" y="23" width="1366" height="745" />
+    <state width="1653" height="143" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755909" />
+    <state width="1878" height="143" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121812" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1601833329469">
+      <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1324" height="232" key="GridCell.Tab.1.bottom/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591595686550" />
-    <state width="1324" height="232" key="GridCell.Tab.1.center" timestamp="1591595686548">
-      <screen x="0" y="23" width="1366" height="745" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329469" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1601833329468">
+      <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1324" height="232" key="GridCell.Tab.1.center/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591595686548" />
-    <state width="1324" height="232" key="GridCell.Tab.1.left" timestamp="1591595686547">
-      <screen x="0" y="23" width="1366" height="745" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329468" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1601833329467">
+      <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1324" height="232" key="GridCell.Tab.1.left/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591595686547" />
-    <state width="1324" height="232" key="GridCell.Tab.1.right" timestamp="1591595686549">
-      <screen x="0" y="23" width="1366" height="745" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329467" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1601833329469">
+      <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1324" height="232" key="GridCell.Tab.1.right/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591595686549" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329469" />
     <state x="2123" y="269" key="RollbackChangesDialog" timestamp="1600134699941">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
@@ -312,18 +353,25 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1835" y="190" key="SettingsEditor/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600005346818" />
+    <state x="1926" y="291" key="Vcs.Push.Dialog.v2" timestamp="1600134909185">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1926" y="291" key="Vcs.Push.Dialog.v2/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134909185" />
+    <state x="2056" y="313" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600796254316">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2056" y="313" key="com.intellij.testIntegration.createTest.CreateTestDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600796254316" />
+    <state x="2024" y="350" key="git4idea.merge.GitPullDialog" timestamp="1600134884552">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2024" y="350" key="git4idea.merge.GitPullDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134884552" />
     <state x="2122" y="423" key="git4idea.rebase.GitRebaseDialog" timestamp="1600134819233">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="2122" y="423" key="git4idea.rebase.GitRebaseDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134819233" />
-    <state x="1474" y="131" key="new project wizard" timestamp="1600007904784">
+    <state x="1474" y="131" key="new project wizard" timestamp="1601338626396">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1812" y="131" key="new project wizard/-1920.23.1920.1057/0.23.1366.745@-1920.23.1920.1057" timestamp="1591724094983" />
-    <state x="1474" y="131" key="new project wizard/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600007904784" />
-    <state x="390" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1591559420140">
-      <screen x="0" y="23" width="1366" height="745" />
-    </state>
-    <state x="390" y="23" key="refactoring.ChangeSignatureDialog/1366.23.1920.1057/0.23.1366.745@0.23.1366.745" timestamp="1591559420140" />
+    <state x="1474" y="131" key="new project wizard/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601338626396" />
   </component>
 </project>

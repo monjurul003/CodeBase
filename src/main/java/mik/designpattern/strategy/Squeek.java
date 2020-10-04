@@ -1,0 +1,8 @@
+package mik.designpattern.strategy;
+
+public class Squeek implements QuackBehavior {
+    @Override
+    public void quack() {
+        System.out.println("Squeek!");
+    }
+}

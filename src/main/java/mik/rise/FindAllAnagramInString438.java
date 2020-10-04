@@ -40,8 +40,8 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 * */
 public class FindAllAnagramInString438 {
     public static void main(String[] args) {
-        String s = "cbadrbacab";
-        String p = "abc";
+        String s = "abab";
+        String p = "ab";
         System.out.println(findAnagrams(s,p));
     }
     public static List<Integer> findAnagrams(String s, String p) {
