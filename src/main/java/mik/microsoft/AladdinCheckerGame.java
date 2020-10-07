@@ -6,14 +6,8 @@ public class AladdinCheckerGame {
     public static void main(String[] args) {
         String[] B = new String[]{"..X...", "......", "....X.", ".X....", "..X.X.", "...O.."};
         int N = B.length;
-        char[][] b = convert(B, N);
-        int[] pos = zafarsPosition(B, N);
-        System.out.println("position of zafar is " + pos[0] + ", " + pos[1]);
-        int result = 0;
-        solution(b,pos[0]-1,pos[0]-1,N);
-        result = Math.max(result, ans);
-        ans = 0;
-        solution(b, pos[0], pos[1], N);
+        char[][] board = convert(B, N);
+        int ans = solution(board,N);
         System.out.println(ans);
     }
 
@@ -27,13 +21,43 @@ public class AladdinCheckerGame {
         return board;
     }
 
-    public static int[] zafarsPosition(String[] B, int N) {
+    public static int solution(char[][] board, int N) {
+        if (board == null || board.length == 0) {
+            return 0;
+        }
+        int[] zafarsPosition = findZafarsPosition(board);
+
+        return dfs(board, zafarsPosition[0],zafarsPosition[1], N);
+    }
+
+    public static int dfs(char[][] board, int x, int y, int N) {
+        int[][] direction = {{-2, -2}, {-2, 2}}; //zafar can move in the cell
+        int result = 0;
+        for (int[] dir : direction) {
+            int x0 = x + dir[0] / 2;
+            int y0 = y + dir[1] / 2;
+            int x1 = x + dir[0];
+            int y1 = y + dir[1];
+            if (x1 >= 0 && x1 < N && y1 >= 0 && y1 < N && board[x1][y1] == '.' && board[x0][y0] == 'X') {
+                result = Math.max(result, 1 + dfs(board, x1, y1, N));
+            }
+
+        }
+        return result;
+    }
+
+    private static boolean checkBoundaryAndJumpCondition(char[][] board, int x1, int y1, int x0, int y0, int N) {
+        return false;
+    }
+
+    public static int[] findZafarsPosition(char[][] board) {
         int[] result = new int[2];
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                if (B[i].charAt(j) == 'O') {
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                if (board[i][j] == 'O') {
                     result[0] = i;
                     result[1] = j;
+                    break;
                 }
             }
         }
@@ -45,24 +69,6 @@ public class AladdinCheckerGame {
             return;
         }
 
-
-        if (i > 1 && j > 1 && B[i - 1][j - 1] == 'X') {
-            B[i - 1][j - 1] = '.';
-            ans++;
-            solution(B, i - 2, j - 2, N);
-        } else if (i > 1 && j < N - 2 && B[i - 1][j + 1] == 'X') {
-            B[i - 1][j + 1] = '.';
-            ans++;
-            solution(B, i - 2, j + 2, N);
-        } else if (i < N - 2 && j > 1 && B[i + 1][j - 1] == 'X') {
-            B[i + 1][j - 1] = '.';
-            ans++;
-            solution(B, i + 2, j - 2, N);
-        } else if (i < N - 2 && j < N - 2 && B[i + 1][j + 1] == 'X') {
-            B[i + 1][j + 1] = '.';
-            ans++;
-            solution(B, i + 2, j + 2, N);
-        }
 
     }
 }

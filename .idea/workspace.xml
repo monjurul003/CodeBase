@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/CanNotFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/DuckSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/FlyWithRocketPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/designpattern/strategy/Squeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinCostClimbingStairs746.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinPathSum64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mik/dp/minmaxpath/MinCostClimbingStairs746Test.java" afterDir="false" />
+    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="Merge branch 'master' of github.com:monjurul003/CodeBase">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/HourMinutesCombination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/microsoft/MaxNetworkRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/MaxNetworkRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/rise/FindAllAnagramInString438.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/rise/FindAllAnagramInString438.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/microsoft/MaxNetworkRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/microsoft/MaxNetworkRank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/randomques/LinkedListRelated.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/randomques/LinkedListRelated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/rise/FindAllAnagramInString438.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/rise/FindAllAnagramInString438.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/microsoft/AladdinCheckerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/AladdinCheckerGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/microsoft/AladdinCheckerGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/microsoft/AladdinCheckerGame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +59,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -90,7 +77,7 @@
       <recent name="mik.designpattern.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DuckSimulator">
+  <component name="RunManager" selected="Application.HourMinutesCombination">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -126,13 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllAnagramInString438" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.rise.FindAllAnagramInString438" />
+    <configuration name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.Fraction" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.rise.*" />
+          <option name="PATTERN" value="mik.microsoft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPathSum64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.dp.minmaxpath.MinPathSum64" />
+    <configuration name="HourMinutesCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.HourMinutesCombination" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.dp.minmaxpath.*" />
+          <option name="PATTERN" value="mik.microsoft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuckSimulator" />
+        <item itemvalue="Application.HourMinutesCombination" />
         <item itemvalue="Application.AladdinCheckerGame" />
+        <item itemvalue="Application.Fraction" />
+        <item itemvalue="Application.DuckSimulator" />
         <item itemvalue="Application.NumberWithEqualDigitSum" />
-        <item itemvalue="Application.FindAllAnagramInString438" />
-        <item itemvalue="Application.MinPathSum64" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +228,8 @@
       <workItem from="1601337009647" duration="1701000" />
       <workItem from="1601394840396" duration="302000" />
       <workItem from="1601402412947" duration="596000" />
-      <workItem from="1601752855552" duration="3183000" />
+      <workItem from="1601752855552" duration="3566000" />
+      <workItem from="1601936377869" duration="6721000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:monjurul003/CodeBase">
       <created>1600134875334</created>
@@ -284,6 +272,13 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_TABS">
@@ -301,50 +296,58 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="2139" y="259" key="#com.intellij.ide.util.MemberChooser/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834742956" />
-    <state x="1837" y="128" key="CommitChangelistDialog2" timestamp="1600134874933">
+    <state x="2045" y="277" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1602047091706">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state x="1837" y="128" key="CommitChangelistDialog2/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134874933" />
+    <state x="2045" y="277" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602047091705" />
+    <state x="1837" y="128" key="CommitChangelistDialog2" timestamp="1601834938576">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1837" y="128" key="CommitChangelistDialog2/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834938576" />
     <state x="1466" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1600134864084">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1466" y="123" width="1720" height="857" key="DiffContextDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134864084" />
-    <state width="1878" height="143" key="GridCell.Tab.0.bottom" timestamp="1601834121813">
+    <state width="1878" height="214" key="GridCell.Tab.0.bottom" timestamp="1602091258168">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1653" height="143" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755910" />
-    <state width="1878" height="143" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121813" />
-    <state width="1878" height="143" key="GridCell.Tab.0.center" timestamp="1601834121811">
+    <state width="1878" height="214" key="GridCell.Tab.0.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602091258168" />
+    <state width="1878" height="214" key="GridCell.Tab.0.center" timestamp="1602091258166">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1653" height="143" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755908" />
-    <state width="1878" height="143" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121811" />
-    <state width="1878" height="143" key="GridCell.Tab.0.left" timestamp="1601834121810">
+    <state width="1878" height="214" key="GridCell.Tab.0.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602091258166" />
+    <state width="1878" height="214" key="GridCell.Tab.0.left" timestamp="1602091258165">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1653" height="143" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755907" />
-    <state width="1878" height="143" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121810" />
-    <state width="1878" height="143" key="GridCell.Tab.0.right" timestamp="1601834121812">
+    <state width="1878" height="214" key="GridCell.Tab.0.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602091258165" />
+    <state width="1878" height="214" key="GridCell.Tab.0.right" timestamp="1602091258167">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state width="1653" height="143" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601185755909" />
-    <state width="1878" height="143" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834121812" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1601833329469">
+    <state width="1878" height="214" key="GridCell.Tab.0.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602091258167" />
+    <state width="1878" height="511" key="GridCell.Tab.1.bottom" timestamp="1602082661319">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329469" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1601833329468">
+    <state width="1878" height="511" key="GridCell.Tab.1.bottom/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602082661319" />
+    <state width="1878" height="511" key="GridCell.Tab.1.center" timestamp="1602082661318">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329468" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1601833329467">
+    <state width="1878" height="511" key="GridCell.Tab.1.center/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602082661318" />
+    <state width="1878" height="511" key="GridCell.Tab.1.left" timestamp="1602082661317">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329467" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1601833329469">
+    <state width="1878" height="511" key="GridCell.Tab.1.left/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602082661317" />
+    <state width="1878" height="511" key="GridCell.Tab.1.right" timestamp="1602082661318">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601833329469" />
+    <state width="1878" height="511" key="GridCell.Tab.1.right/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602082661318" />
+    <state x="2132" y="476" key="ReplaceDuplicatesPrompt" timestamp="1602089284139">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2132" y="476" key="ReplaceDuplicatesPrompt/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602089284139" />
     <state x="2123" y="269" key="RollbackChangesDialog" timestamp="1600134699941">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
@@ -361,17 +364,41 @@
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="2056" y="313" key="com.intellij.testIntegration.createTest.CreateTestDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600796254316" />
-    <state x="2024" y="350" key="git4idea.merge.GitPullDialog" timestamp="1600134884552">
+    <state x="2064" y="311" width="524" height="484" key="extract.method.dialog" timestamp="1602089280926">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state x="2024" y="350" key="git4idea.merge.GitPullDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134884552" />
-    <state x="2122" y="423" key="git4idea.rebase.GitRebaseDialog" timestamp="1600134819233">
+    <state x="2064" y="311" width="524" height="484" key="extract.method.dialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1602089280926" />
+    <state x="2024" y="350" key="git4idea.merge.GitPullDialog" timestamp="1601834980447">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
-    <state x="2122" y="423" key="git4idea.rebase.GitRebaseDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1600134819233" />
+    <state x="2024" y="350" key="git4idea.merge.GitPullDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834980447" />
+    <state x="2122" y="423" key="git4idea.rebase.GitRebaseDialog" timestamp="1601834988316">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2122" y="423" key="git4idea.rebase.GitRebaseDialog/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834988316" />
+    <state x="2088" y="287" key="git4idea.rebase.GitRebaseEditor" timestamp="1601834994581">
+      <screen x="1366" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2088" y="287" key="git4idea.rebase.GitRebaseEditor/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601834994581" />
     <state x="1474" y="131" key="new project wizard" timestamp="1601338626396">
       <screen x="1366" y="23" width="1920" height="1057" />
     </state>
     <state x="1474" y="131" key="new project wizard/1366.23.1920.1057/0.23.1366.745@1366.23.1920.1057" timestamp="1601338626396" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mik/microsoft/Fraction.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mik/microsoft/AladdinCheckerGame.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
