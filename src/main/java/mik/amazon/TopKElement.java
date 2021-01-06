@@ -3,7 +3,7 @@ package mik.amazon;
 import java.util.*;
 
 public class TopKElement {
-    int k = 2;
+    int numberOfElementInResultList = 2;
     String[] keywords = new String[] {"anacell", "cetracular", "betacellular"};
     String[] reviews = new String[]{"Anacell provides the best services in the city", "betacellular has awesome services", "Best services provided by anacell, everyone should use anacell"};
     public List<String> topK(){
@@ -22,7 +22,7 @@ public class TopKElement {
         }
         Queue<Map.Entry<String, Integer>> pq = new PriorityQueue<>((a,b) -> a.getValue() == b.getValue() ? (a.getKey().compareTo(b.getKey())) : a.getValue()-b.getValue());
         pq.addAll(reviewMap.entrySet());
-        while(!pq.isEmpty() && k-- > 0){
+        while(!pq.isEmpty() && numberOfElementInResultList-- > 0){
             result.add(pq.poll().getKey());
         }
         return result;

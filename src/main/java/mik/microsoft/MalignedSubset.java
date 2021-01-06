@@ -28,7 +28,7 @@ public class MalignedSubset {
 
     }
 
-    private static int getLargestMAlignedSubset(int[] array, int M) {
+    public static int getLargestMAlignedSubset(int[] array, int M) {
         if (array == null || array.length == 0 || M == 0) {
             return 0;
         }
