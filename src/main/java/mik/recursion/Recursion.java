@@ -21,6 +21,12 @@ public class Recursion {
         dib(n-1);
     }
 
+    //O(2^n) time complexity space complexity is O(n)
+    public static int fib(int n) {
+        if(n<=2) return 1;
+        return  fib(n-1) + fib(n-2);
+    }
+
     public static void printPattern(int n) {
         if (n <= 0) return;
         System.out.print("a");
