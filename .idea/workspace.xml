@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="DP codes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/amazon/DeepCopyLinkeListWithRandomPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/HashMapRelated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/LambdaRelated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/BasicDfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/GraphMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/TopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/TrimBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/CourseSchedule1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/TopSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/tree/ValidBst.java" afterDir="false" />
+    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="Feb 17, 2021">
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCaseCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCombinationOfPhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinPathSum64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinPathSum64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/practise/DumpCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/practise/DumpCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/recursion/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/recursion/Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/practise/DumpCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/practise/DumpCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/bitquill/TrappingTheRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/bitquill/TrappingTheRainWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +39,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/TopologicalSort.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCaseCombination.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/TrimBST.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCombinationOfPhoneNumber.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/ds/LambdaRelated.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/Course.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/BasicDfs.java" root0="SKIP_INSPECTION" />
@@ -180,6 +168,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -261,6 +262,7 @@
       <workItem from="1611810326397" duration="5089000" />
       <workItem from="1612489716491" duration="2578000" />
       <workItem from="1612928376006" duration="7747000" />
+      <workItem from="1613578395682" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:monjurul003/CodeBase">
       <created>1600134875334</created>
@@ -283,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610169923051</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feb 17, 2021">
+      <created>1613578511736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613578511736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +339,8 @@
     <MESSAGE value="Merge branch 'master' of github.com:monjurul003/CodeBase" />
     <MESSAGE value="Add some codes" />
     <MESSAGE value="DP codes." />
-    <option name="LAST_COMMIT_MESSAGE" value="DP codes." />
+    <MESSAGE value="Feb 17, 2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 17, 2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -49,6 +49,24 @@ public class TrappingTheRainWater {
         System.out.println("from dp = "+ sum);
         return sum;
     }
+
+    /*11. Container With Most Water
+    * */
+    public int maxArea(int[] height) {
+        if(height == null || height.length == 0) return 0;
+
+        int left = 0, right = height.length-1, max = Integer.MIN_VALUE;
+
+        while(left < right) {
+            max = Math.max(Math.min(height[left], height[right]) * (right - left), max);
+            if(height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+        return max;
+    }
     public static void main(String[] args) {
         int[] input = new int[] {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(trapBruteForce(input));
