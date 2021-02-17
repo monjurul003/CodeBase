@@ -1,13 +1,11 @@
 package mik.practise;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class DumpCode {
-    public static void main(String[] args) {
 
-        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+    public static void main(String[] args) {
+       List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
 
         list.forEach(System.out::println);
 //        int[] nums = {9,8,7,6,5};
@@ -32,7 +30,7 @@ public class DumpCode {
 //            System.out.println(l);
 //        }
 
-        int[] nums = list.stream().mapToInt(i->i).toArray();
+        int[] nums = list.stream().mapToInt(i -> i).toArray();
         for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
 
@@ -41,8 +39,8 @@ public class DumpCode {
         strList.add("test-1");
         strList.add("test-2");
         String[] strArr = strList.toArray(new String[strList.size()]);
-        for (String s:
-             strArr) {
+        for (String s :
+                strArr) {
             System.out.println(s);
         }
 

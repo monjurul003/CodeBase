@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="Add some codes" />
+    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="DP codes.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/amazon/DeepCopyLinkeListWithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/HashMapRelated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/LambdaRelated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/BasicDfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/GraphMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/TrimBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/CourseSchedule1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/TopSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/tree/ValidBst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinPathSum64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinPathSum64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/practise/DumpCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/practise/DumpCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/recursion/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/recursion/Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/practise/DumpCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/practise/DumpCode.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +51,16 @@
       </set>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/TopologicalSort.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/TrimBST.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/ds/LambdaRelated.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/Course.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/BasicDfs.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/TopSort.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/mik/amazon/DeepCopyLinkeListWithRandomPointer.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/CourseSchedule1.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1bSbG5AxbmezqYt2xyt9kA7bbt6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,7 +81,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -67,7 +96,7 @@
       <recent name="mik.designpattern.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
+  <component name="RunManager" selected="Application.CourseSchedule1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -75,13 +104,55 @@
       <module />
       <method />
     </configuration>
-    <configuration name="MalignedSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.microsoft.MalignedSubset" />
+    <configuration name="CourseSchedule1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.graph.courseschedule.CourseSchedule1" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.microsoft.*" />
+          <option name="PATTERN" value="newstart.programming.graph.courseschedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.graph.GraphMain" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newstart.programming.graph.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapRelated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.ds.HashMapRelated" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newstart.programming.ds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaRelated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.ds.LambdaRelated" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newstart.programming.ds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,64 +174,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.recursion.Recursion" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.designpattern.observer.WeatherStation" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.designpattern.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MalignedSubsetTest.testWithInput1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mik.microsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mik.microsoft" />
-      <option name="MAIN_CLASS_NAME" value="mik.microsoft.MalignedSubsetTest" />
-      <option name="METHOD_NAME" value="testWithInput1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.CourseSchedule1" />
+        <item itemvalue="Application.LambdaRelated" />
         <item itemvalue="Application.MinPathSum64" />
-        <item itemvalue="Application.WeatherStation" />
-        <item itemvalue="JUnit.MalignedSubsetTest.testWithInput1" />
-        <item itemvalue="Application.MalignedSubset" />
+        <item itemvalue="Application.GraphMain" />
+        <item itemvalue="Application.HashMapRelated" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +256,11 @@
       <workItem from="1609902846834" duration="253000" />
       <workItem from="1610153896980" duration="494000" />
       <workItem from="1610154417434" duration="1949000" />
-      <workItem from="1610168246578" duration="1274000" />
+      <workItem from="1610168246578" duration="7916000" />
+      <workItem from="1611419814704" duration="6782000" />
+      <workItem from="1611810326397" duration="5089000" />
+      <workItem from="1612489716491" duration="2578000" />
+      <workItem from="1612928376006" duration="7747000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:monjurul003/CodeBase">
       <created>1600134875334</created>
@@ -250,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600134875334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DP codes.">
+      <created>1610169651747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610169651747</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DP codes.">
+      <created>1610169923051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610169923051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +329,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of github.com:monjurul003/CodeBase" />
     <MESSAGE value="Add some codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some codes" />
+    <MESSAGE value="DP codes." />
+    <option name="LAST_COMMIT_MESSAGE" value="DP codes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,8 +352,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mik/recursion/Recursion.java</url>
-          <line>10</line>
+          <line>14</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/GraphMain.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
