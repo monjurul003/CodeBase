@@ -1,5 +1,6 @@
 package mik.dp.minmaxpath;
 
+import newstart.programming.dp.MinCostClimbingStairs746;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

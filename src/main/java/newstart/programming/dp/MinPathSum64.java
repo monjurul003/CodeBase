@@ -1,4 +1,4 @@
-package mik.dp.minmaxpath;
+package newstart.programming.dp;
 
 import java.util.Arrays;
 

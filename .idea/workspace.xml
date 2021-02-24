@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="Feb 17, 2021">
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCaseCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCombinationOfPhoneNumber.java" afterDir="false" />
+    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="Backtrack and other problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/amazon/RobotBounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/amazon/RunningMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/ShoppingList_Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/romannumber/RomanConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/search/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/bitquill/TrappingTheRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/bitquill/TrappingTheRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinCostClimbingStairs746.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/MinCostClimbingStairs746.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/dp/minmaxpath/MinPathSum64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/MinPathSum64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/ds/DataStructureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/ds/DataStructureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mik/dp/minmaxpath/MinCostClimbingStairs746Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mik/dp/minmaxpath/MinCostClimbingStairs746Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/bitquill/TrappingTheRainWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/bitquill/TrappingTheRainWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/ds/DataStructureTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/ds/DataStructureTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/ds/DataStructureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/ds/DataStructureTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCaseCombination.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/TrimBST.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCombinationOfPhoneNumber.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/romannumber/RomanConverter.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/ds/LambdaRelated.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/Course.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/BasicDfs.java" root0="SKIP_INSPECTION" />
@@ -84,7 +95,7 @@
       <recent name="mik.designpattern.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CourseSchedule1">
+  <component name="RunManager" selected="Application.RobotBounded">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -106,27 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newstart.programming.graph.GraphMain" />
+    <configuration name="DataStructureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.ds.DataStructureTest" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newstart.programming.graph.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapRelated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newstart.programming.ds.HashMapRelated" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newstart.programming.ds.*" />
+          <option name="PATTERN" value="mik.ds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,21 +159,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RobotBounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mik.amazon.RobotBounded" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobotBounded" />
+        <item itemvalue="Application.DataStructureTest" />
         <item itemvalue="Application.CourseSchedule1" />
         <item itemvalue="Application.LambdaRelated" />
         <item itemvalue="Application.MinPathSum64" />
-        <item itemvalue="Application.GraphMain" />
-        <item itemvalue="Application.HashMapRelated" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +271,10 @@
       <workItem from="1611810326397" duration="5089000" />
       <workItem from="1612489716491" duration="2578000" />
       <workItem from="1612928376006" duration="7747000" />
-      <workItem from="1613578395682" duration="1320000" />
+      <workItem from="1613578395682" duration="1961000" />
+      <workItem from="1613846359297" duration="2989000" />
+      <workItem from="1614062856748" duration="2809000" />
+      <workItem from="1614140103508" duration="6483000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:monjurul003/CodeBase">
       <created>1600134875334</created>
@@ -292,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613578511736</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Backtrack and other problem">
+      <created>1613579786390</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613579786390</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +359,8 @@
     <MESSAGE value="Add some codes" />
     <MESSAGE value="DP codes." />
     <MESSAGE value="Feb 17, 2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 17, 2021" />
+    <MESSAGE value="Backtrack and other problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backtrack and other problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -369,6 +389,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/newstart/programming/graph/GraphMain.java</url>
           <line>13</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/mik/ds/DataStructureTest.java</url>
+          <line>53</line>
+          <properties class="mik.ds.DataStructureTest" method="testPriorityQueue">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
