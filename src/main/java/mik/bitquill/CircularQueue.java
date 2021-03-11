@@ -7,12 +7,12 @@ public class CircularQueue implements SimpleQueue{
     private int capacity;
     private int size;
 
-    public CircularQueue(int capacity) {
-        this.capacity = capacity;
-        this.queue = new int[capacity];
-        this.head = 0;
-        this.tail = -1;
-        this.size = 0;
+    public CircularQueue(int cap) {
+        capacity = cap;
+        queue = new int[capacity];
+        head = 0;
+        tail = -1;
+        size = 0;
     }
 
     @Override
@@ -25,37 +25,37 @@ public class CircularQueue implements SimpleQueue{
         if(size == capacity) {
             return false;
         }
-        this.queue[++tail%capacity] = value;
-        this.size++;
+        queue[++tail%capacity] = value;
+        size++;
         return true;
     }
 
     @Override
     public int dequeue() throws Exception {
-        if(this.size == 0){
+        if(size == 0){
             throw new Exception();
         }
-        int result = this.queue[this.head];
-        this.head = (this.head+1) % this.capacity;
-        this.size--;
+        int result = queue[head];
+        head = (head+1) % capacity;
+        size--;
         return result;
     }
     public int peek() throws Exception {
-        if(this.size == 0){
+        if(size == 0){
             throw new Exception();
         }
-        return this.queue[this.head];
+        return queue[head];
     }
     @Override
     public int getCapacity() {
-        return this.capacity;
+        return capacity;
     }
     public int getSize() {
-        return this.size;
+        return size;
     }
     public void printQueue() {
-        for (int i = 0; i < this.queue.length; i++) {
-            System.out.print(this.queue[i]+ " ");
+        for (int i = 0; i < queue.length; i++) {
+            System.out.print(queue[i]+ " ");
         }
         System.out.println();
     }
