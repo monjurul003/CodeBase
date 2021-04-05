@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="Backtrack and other problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/amazon/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mik/ds/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/HouseOfRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/list/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/list/OddEvenLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mik/amazon/ShoppingListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/newstart/programming/dp/CoinChangeTest.java" afterDir="false" />
+    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="March 11.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/TestGround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/crackingthecodinginterview/ArraysAndString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/TreeMapRelated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/trie/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/bitquill/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/bitquill/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/amazon/RobotBounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/amazon/RobotBounded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/bitquill/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/bitquill/CircularQueue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,7 +94,7 @@
       <recent name="mik.dp.minmaxpath" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CoinChangeTest.minCoinChange">
+  <component name="RunManager" selected="Application.TestGround">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -103,13 +102,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="DataStructureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.ds.DataStructureTest" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.dp.CoinChange" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.ds.*" />
+          <option name="PATTERN" value="newstart.programming.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,13 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotBounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.amazon.RobotBounded" />
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.dp.LongestIncreasingSubsequence" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.amazon.*" />
+          <option name="PATTERN" value="newstart.programming.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +130,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mik.amazon.ShoppingList" />
+    <configuration name="TestGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.TestGround" />
       <module name="CodeBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.amazon.*" />
+          <option name="PATTERN" value="newstart.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapRelated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newstart.programming.ds.TreeMapRelated" />
+      <module name="CodeBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newstart.programming.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,23 +171,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoinChangeTest.minCoinChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newstart.programming.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="newstart.programming.dp" />
-      <option name="MAIN_CLASS_NAME" value="newstart.programming.dp.CoinChangeTest" />
-      <option name="METHOD_NAME" value="minCoinChange" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CoinChangeTest.minCoinChange" />
+        <item itemvalue="Application.TestGround" />
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
+        <item itemvalue="Application.TreeMapRelated" />
         <item itemvalue="JUnit.ShoppingListTest.getNumberOfOptions" />
-        <item itemvalue="Application.ShoppingList" />
-        <item itemvalue="Application.RobotBounded" />
-        <item itemvalue="Application.DataStructureTest" />
+        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +278,9 @@
       <workItem from="1614062856748" duration="2809000" />
       <workItem from="1614140103508" duration="17833000" />
       <workItem from="1614919804960" duration="1206000" />
-      <workItem from="1615476572614" duration="766000" />
+      <workItem from="1615476572614" duration="953000" />
+      <workItem from="1616730366343" duration="2657000" />
+      <workItem from="1617335127437" duration="12464000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:monjurul003/CodeBase">
       <created>1600134875334</created>
@@ -326,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614195107149</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="March 11.">
+      <created>1615477445150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615477445150</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +381,8 @@
     <MESSAGE value="Feb 17, 2021" />
     <MESSAGE value="Backtrack and other problem" />
     <MESSAGE value="Commit on February 24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on February 24" />
+    <MESSAGE value="March 11." />
+    <option name="LAST_COMMIT_MESSAGE" value="March 11." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,6 +419,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/newstart/programming/dp/CoinChangeTest.java</url>
+          <line>10</line>
+          <properties class="newstart.programming.dp.CoinChangeTest" method="minCoinChange">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/newstart/programming/dp/CoinChange.java</url>
+          <line>77</line>
+          <properties class="newstart.programming.dp.CoinChange" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

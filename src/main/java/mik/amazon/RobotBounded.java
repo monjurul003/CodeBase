@@ -96,3 +96,66 @@ public class RobotBounded {
         System.out.println(result);
     }
 }
+/*
+* public boolean isRobotBounded(String instructions) {
+
+    int[] north = new int[] {1,0};
+    int[] east = new int[] {0,1};
+    int[] south = new int[] {-1,0};
+    int[] west = new int[] {0,-1};
+
+    int[] total = new int[] {0,0};
+    int[] direction = north; //starting direction
+
+     // within 4 cycles should return
+
+    for(int i = 0 ; i< 4; i++){
+
+        for(char c: instructions.toCharArray()){
+            if(c == 'G'){
+                total[0] += direction[0];
+                total[1] += direction[1];
+            }
+            if(c == 'L'){
+                if(direction == north) direction = west;
+                else if(direction == west)direction = south;
+                else if(direction == south)direction = east;
+                else if(direction == east)direction = north;
+
+            }
+            if(c == 'R'){
+                if(direction == north) direction = east;
+                else if(direction == west)direction = north;
+                else if(direction == south)direction = west;
+                else if(direction == east)direction = south;
+            }
+
+
+        }
+
+    if(total[0] == 0 & total[1] == 0 ) return true;
+    }//four times at most
+
+    return false;
+
+}
+*
+ public boolean isRobotBounded(String instructions) {
+        int[][] dir = new int[][] {{0,1}, {1,0}, {0,-1}, {-1,0}};
+        int[] pos = {0,0};
+        int cur = 0;
+        for(char ch : instructions.toCharArray()){
+            if(ch == 'G') {
+                pos[0] += dir[cur][0];
+                pos[1] += dir[cur][1];
+            } else if(ch == 'L') {
+                cur = (cur+3) % 4;
+            } else {
+                cur = (cur+1) % 4;
+            }
+        }
+
+        return (pos[0] == 0 && pos[1] == 0) || cur != 0;
+ }
+
+**/
