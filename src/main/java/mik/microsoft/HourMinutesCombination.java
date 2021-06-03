@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 /*
 *
-Given a generic digital clock, having h number of hours and m number of minutes, the task is to find how many times the clock shows identical time. The parameters were 4 integers A,B,C,D. The valid time should be somewhere between 00:00 and 24:00. If the integers don't fulfil the requirements the function should return 0.
+Given a generic digital clock, having h number of hours and m number of minutes, the task is to find how many times the clock shows identical time.
+The parameters were 4 integers A,B,C,D. The valid time should be somewhere between 00:00 and 24:00.
+If the integers don't fulfil the requirements the function should return 0.
 
 Restrictions: A,B,C,D are integers between [0,9]
 

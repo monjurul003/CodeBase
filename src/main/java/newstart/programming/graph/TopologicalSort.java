@@ -46,7 +46,7 @@ public class TopologicalSort {
              map.get(prerequisites[i][1]).add(prerequisites[i][0]);
              indegree[prerequisites[i][1]]++;
          }
-         ;
+
          Queue<Integer> q = new LinkedList();
          // Arrays.asList(numCourses).forEach(i -> if(i==0){q.offer(i);});
          for(int i=0; i< numCourses; i++) {

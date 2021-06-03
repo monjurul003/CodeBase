@@ -38,7 +38,7 @@ public class LetterCombinationOfPhoneNumber {
         for(Character d: map.get(digits.charAt(sb.length()))) {
             sb.append(d);
             backtrack(digits, sb, map, result);
-            sb.deleteCharAt(sb.length()-1);
+            sb.deleteCharAt(sb.length()-1);  // sb.setLength(sb.length()-1);
         }
     }
 }

@@ -4,16 +4,34 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="March 11.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/TestGround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/crackingthecodinginterview/ArraysAndString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/TreeMapRelated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/trie/Trie.java" afterDir="false" />
+    <list default="true" id="cd82aea0-daf7-46b9-99e5-463650cc2d8a" name="Default Changelist" comment="April 4th 2021.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/ClumsyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/PoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/bestbuy/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/ds/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/MaxLengthUniqueSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/MinAdjNumOfSwapsToGetPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/NumberOfVisibleNodeInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/slidingwindow/BitFlapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/sorting/SortClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/string_related/PalindromeFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mik/microsoft/MaxLengthUniqueSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mik/microsoft/MinAdjNumOfSwapsToGetPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mik/microsoft/NumberOfVisibleNodeInBinaryTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/newstart/programming/string_related/PalindromeFinderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mik/amazon/RobotBounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/amazon/RobotBounded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/dp/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mik/bitquill/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/bitquill/CircularQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/bitquill/TrappingTheRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/bitquill/TrappingTheRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mik/microsoft/HourMinutesCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mik/microsoft/HourMinutesCombination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/newstart/programming/TestGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/TestGround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCombinationOfPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/backtrack/LetterCombinationOfPhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/LambdaRelated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/ds/LambdaRelated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/TopSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/newstart/programming/graph/courseschedule/TopSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mik/bitquill/TrappingTheRainWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mik/bitquill/TrappingTheRainWater.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -88,13 +106,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mik.microsoft" />
+      <recent name="newstart.programming.string_related" />
       <recent name="newstart.programming.dp" />
       <recent name="mik.amazon" />
-      <recent name="mik.microsoft" />
       <recent name="mik.dp.minmaxpath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestGround">
+  <component name="RunManager" selected="JUnit.MinAdjNumOfSwapsToGetPalindromeTest.getNoOfSwaps (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -102,90 +121,103 @@
       <module />
       <method />
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newstart.programming.dp.CoinChange" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newstart.programming.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newstart.programming.dp.LongestIncreasingSubsequence" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newstart.programming.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newstart.programming.TestGround" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newstart.programming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeMapRelated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newstart.programming.ds.TreeMapRelated" />
-      <module name="CodeBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newstart.programming.trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.getNumberOfOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxLengthUniqueSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeBase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mik.amazon.*" />
+          <option name="PATTERN" value="mik.microsoft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mik.amazon" />
-      <option name="MAIN_CLASS_NAME" value="mik.amazon.ShoppingListTest" />
-      <option name="METHOD_NAME" value="getNumberOfOptions" />
+      <option name="PACKAGE_NAME" value="mik.microsoft" />
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.MaxLengthUniqueSubstringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxLengthUniqueSubstringTest.testMaxLength_with_input_set1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.microsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mik.microsoft" />
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.MaxLengthUniqueSubstringTest" />
+      <option name="METHOD_NAME" value="testMaxLength_with_input_set1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxLengthUniqueSubstringTest.testMaxLength_with_input_set2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.microsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mik.microsoft" />
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.MaxLengthUniqueSubstringTest" />
+      <option name="METHOD_NAME" value="testMaxLength_with_input_set2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinAdjNumOfSwapsToGetPalindromeTest.getNoOfSwaps (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.microsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mik.microsoft" />
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.MinAdjNumOfSwapsToGetPalindromeTest" />
+      <option name="METHOD_NAME" value="getNoOfSwaps(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinAdjNumOfSwapsToGetPalindromeTest.getNoOfSwaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mik.microsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mik.microsoft" />
+      <option name="MAIN_CLASS_NAME" value="mik.microsoft.MinAdjNumOfSwapsToGetPalindromeTest" />
+      <option name="METHOD_NAME" value="getNoOfSwaps" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -219,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestGround" />
-        <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.TreeMapRelated" />
-        <item itemvalue="JUnit.ShoppingListTest.getNumberOfOptions" />
-        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="JUnit.MinAdjNumOfSwapsToGetPalindromeTest.getNoOfSwaps (1)" />
+        <item itemvalue="JUnit.MinAdjNumOfSwapsToGetPalindromeTest.getNoOfSwaps" />
+        <item itemvalue="JUnit.MaxLengthUniqueSubstringTest" />
+        <item itemvalue="JUnit.MaxLengthUniqueSubstringTest.testMaxLength_with_input_set2" />
+        <item itemvalue="JUnit.MaxLengthUniqueSubstringTest.testMaxLength_with_input_set1" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +312,11 @@
       <workItem from="1614919804960" duration="1206000" />
       <workItem from="1615476572614" duration="953000" />
       <workItem from="1616730366343" duration="2657000" />
-      <workItem from="1617335127437" duration="12464000" />
+      <workItem from="1617335127437" duration="16025000" />
+      <workItem from="1618935300971" duration="11185000" />
+      <workItem from="1620588602057" duration="886000" />
+      <workItem from="1621133382730" duration="6515000" />
+      <workItem from="1621398083769" duration="25595000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:monjurul003/CodeBase">
       <created>1600134875334</created>
@@ -331,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615477445150</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="April 4th 2021.">
+      <created>1617588006567</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617588006567</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +425,8 @@
     <MESSAGE value="Backtrack and other problem" />
     <MESSAGE value="Commit on February 24" />
     <MESSAGE value="March 11." />
-    <option name="LAST_COMMIT_MESSAGE" value="March 11." />
+    <MESSAGE value="April 4th 2021." />
+    <option name="LAST_COMMIT_MESSAGE" value="April 4th 2021." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
